@@ -22,7 +22,7 @@ public class ScreenShotOfResult {
         driver.get("https://www.facebook.com/");
         driver.manage().window().maximize();
     }
-// changes
+
     @Test
     public void result() throws InterruptedException {
         WebElement loginbutton = driver.findElement(By.id("u_0_b"));
